@@ -12,7 +12,7 @@ Footnotes.setup do |f|
 
   # Change the prefix :
   # f.prefix = 'mvim://open?url=file://%s&line=%d&column=%d'
-
+  f.prefix = 'txmt://open?url=file://%s&line=%d&column=%d'
   # Disable style :
   # f.no_style = true
 

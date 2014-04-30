@@ -4,7 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# gem 'sqlite3'
+gem 'pg'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -54,7 +55,6 @@ gem 'tire'
 # server-side templates
 gem 'slim-rails', '~> 1.0'
 gem 'rabl'
-
 gem 'formtastic'
 gem 'formtastic-bootstrap'
 
@@ -66,6 +66,7 @@ end
 group :assets do
   gem 'sprockets'
   gem 'bootstrap-sass'
+  gem 'twitter-bootstrap-rails'
   gem 'angularjs-rails-resource'
   gem 'font-awesome-sass-rails', github: 'iterion/font-awesome-sass-rails'
 end
@@ -107,3 +108,4 @@ gem 'capistrano', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'rails_12factor', group: :production
