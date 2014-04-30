@@ -46,13 +46,28 @@ gem 'angularjs-rails-resource'
 
 gem 'protected_attributes'
 
+gem 'bootstrap_form'
+
+# search with elasticsearch
+gem 'tire'
+
+# server-side templates
+gem 'slim-rails', '~> 1.0'
+gem 'rabl'
+
+gem 'formtastic'
+gem 'formtastic-bootstrap'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
 
 group :assets do
-
+  gem 'sprockets'
+  gem 'bootstrap-sass'
+  gem 'angularjs-rails-resource'
+  gem 'font-awesome-sass-rails', github: 'iterion/font-awesome-sass-rails'
 end
 
 group :development do
@@ -92,5 +107,3 @@ gem 'capistrano', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
-
