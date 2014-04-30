@@ -49,6 +49,8 @@ gem 'protected_attributes'
 
 gem 'bootstrap_form'
 
+gem 'angular-ui-bootstrap-rails'
+
 # search with elasticsearch
 gem 'tire'
 
@@ -57,7 +59,9 @@ gem 'slim-rails', '~> 1.0'
 gem 'rabl'
 gem 'formtastic'
 gem 'formtastic-bootstrap'
+gem 'rake'
 
+gem 'bootstrap-datepicker-rails'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

@@ -6,7 +6,11 @@
 development:
   adapter: postgresql
   encoding: unicode
+  database: blankbox_development
+  encoding: unicode
   # database: db/blankbox
+  username: rails
+  password:
   pool: 5
   timeout: 5000
 
@@ -16,11 +20,14 @@ development:
 test:
   adapter: postgresql
   # database: db/test.sqlite3
+  username: rails  
   pool: 5
   timeout: 5000
 
 production:
   adapter: postgresql
+  username: rails
+
   # database: db/production.sqlite3
   pool: 5
   timeout: 5000
