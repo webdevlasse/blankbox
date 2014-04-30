@@ -67,7 +67,6 @@ group :assets do
   gem 'sprockets'
   gem 'bootstrap-sass'
   gem 'twitter-bootstrap-rails'
-  gem 'angularjs-rails-resource'
   gem 'font-awesome-sass-rails', github: 'iterion/font-awesome-sass-rails'
 end
 
